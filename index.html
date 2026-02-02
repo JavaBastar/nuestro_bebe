@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cuenta regresiva 👶</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+    <h1>👶 Nuestro bebé llega en...</h1>
+
+    <div class="contador">
+      <div class="bloque">
+        <span id="dias">00</span>
+        <small>Días</small>
+      </div>
+      <div class="bloque">
+        <span id="horas">00</span>
+        <small>Horas</small>
+      </div>
+      <div class="bloque">
+        <span id="minutos">00</span>
+        <small>Minutos</small>
+      </div>
+      <div class="bloque">
+        <span id="segundos">00</span>
+        <small>Segundos</small>
+      </div>
+    </div>
+
+    <p class="fecha">
+      Fecha estimada de tu llegada: <strong id="fechaNacimiento"></strong>
+    </p>
+
+    <p class="semanas">
+      🩺 Semana de embarazo: <strong id="semanaActual"></strong>
+    </p>
+
+    <p class="tamano">
+       Hoy bebé mides como: <strong id="tamanoBebe"></strong>
+    </p>
+
+
+    <div class="galeria">
+      <h2>📸 Nuestros momentos</h2>
+
+      <div class="carrusel">
+        <button class="btn prev">◀</button>
+
+        <div class="slides">
+          <img src="images/eco1.jpeg" alt="Pruebas de embarazo">
+          <img src="images/eco2.jpeg" alt="Ultrasonido 2">
+          <img src="images/eco3.jpeg" alt="Ultrasonido 3">
+          <img src="images/eco4.jpeg" alt="Ultrasonido 4">
+          <img src="images/eco5.jpeg" alt="Ultrasonido 5">
+          <img src="images/eco6.jpeg" alt="Ultrasonido 6">
+          <img src="images/eco7.jpeg" alt="Ultrasonido 7">
+      
+        </div>
+
+        <button class="btn next">▶</button>
+      </div>
+    </div>
+
+
+
+    <div class="diario">
+      <h2>📖 Nuestro diario</h2>
+      <ul id="listaDiario"></ul>
+    </div>
+
+    <div class="espera">
+    <h2>💫 Te esperamos...</h2>
+    <p>
+      Esperamos con ansias saber tu sexo, bueno, <br>
+      Papá no quiere saberlo todavía,<br>
+      pero mamá sí 💕
+    </p>
+    <p class="nombres">
+      Así que, por ahora, puedes llamarte:<br>
+      <strong>Isaac Bastar Echeverría</strong> o<br>
+      <strong>Luna Bastar Echeverría</strong>
+    </p>
+  </div>
+
+  </div>
+
+  <script src="script.js"></script>
+  <audio id="latidos" src="audio.mp3" autoplay loop muted></audio>
+
+</body>
+</html>

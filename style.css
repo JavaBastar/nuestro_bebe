@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #fdf6ec, #fdebd0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  max-width: 700px;
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: #6b4f4f;
+}
+
+.contador {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.bloque {
+  background: #fff3e0;
+  padding: 15px 20px;
+  border-radius: 15px;
+  min-width: 80px;
+}
+
+.bloque span {
+  display: block;
+  font-size: 32px;
+  font-weight: 600;
+  color: #d35400;
+}
+
+.bloque small {
+  color: #7f8c8d;
+}
+
+.fecha {
+  margin-top: 25px;
+  color: #555;
+}
+
+.semanas {
+  margin-top: 10px;
+  color: #6b4f4f;
+}
+
+.tamano {
+  margin-top: 8px;
+  color: #8e5a2b;
+}
+
+@keyframes pop {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
+
+.animar {
+  animation: pop 0.3s ease;
+}
+
+.galeria {
+  margin-top: 30px;
+}
+
+.galeria h2 {
+  color: #6b4f4f;
+  margin-bottom: 10px;
+}
+
+.imagenes {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.imagenes img {
+  width: 140px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+.imagenes img:hover {
+  transform: scale(1.08);
+}
+
+.diario {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.diario h2 {
+  color: #6b4f4f;
+}
+
+.diario ul {
+  padding-left: 20px;
+}
+
+.diario li {
+  margin-bottom: 8px;
+  color: #555;
+}
+.carrusel {
+  position: relative;
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.4s ease;
+}
+
+.slides img {
+  width: 100%;
+  flex-shrink: 0;
+  border-radius: 20px;
+}
+
+.btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255,255,255,0.8);
+  border: none;
+  border-radius: 50%;
+  padding: 6px 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
+.btn:hover {
+  background: white;
+}
+.espera {
+  margin-top: 35px;
+  padding-top: 20px;
+  border-top: 1px solid #f0e0d0;
+  color: #6b4f4f;
+}
+
+.espera h2 {
+  margin-bottom: 10px;
+}
+
+.espera p {
+  line-height: 1.6;
+  margin: 8px 0;
+}
+
+.nombres {
+  margin-top: 12px;
+  font-size: 17px;
+  color: #8e5a2b;
+}

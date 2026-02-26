@@ -68,7 +68,12 @@ const entradasDiario = [
   "🌤️ Martes 7 de enero: nos acercábamos al final del primer trimestre y empezábamos a sentir un poco más de calma.",
   "🩺 Jueves 16 de enero: ultrasonido del primer trimestre; estábamos muy nerviosos, pero todo salió excelente y nos dijeron que estabas sano.",
   "🌱 Miércoles 22 de enero: supimos que tenías 14 semanas y 2 días; entramos oficialmente a una nueva etapa contigo.",
-  "💛 Lunes 2 de febrero: hoy sigues creciendo fuerte y sano, estamos felices de estar en día festivo juntos y orar por ti todas las noches, serás el bebé más amado."
+  "💛 Lunes 2 de febrero: hoy sigues creciendo fuerte y sano, estamos felices de estar en día festivo juntos y orar por ti todas las noches, serás el bebé más amado.",
+  "💛 Sábado 14 de febrero: Nos moríamos por ir a verte y tuvimos nuestra primera cita un 14 de febrero los tres, fue con un ginecólogo viejito.",
+  "👶 Domingo 17 de febrero: Mamá trabajó demasiado en casa y terminó agotada; al recostarse sintió tus primeros golpecitos, como quejándote porque no la dejaste descansar.",
+  "🚗 Martes 22 de febrero: Por segunda vez mamá recibió tus golpecitos, ahora mientras iban en el carro.",
+  "🤰 Miércoles 25 de febrero: Mamá fue a un masaje para embarazadas y tuvo su primer antojo raro: una cemita."
+
 ];
 
 
@@ -165,3 +170,4 @@ btnAudio.addEventListener("click", () => {
     reproduciendo = false;
   }
 });
+
